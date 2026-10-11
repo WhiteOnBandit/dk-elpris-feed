@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-11T08:31:24Z",
-  "origin_utc": "2026-10-10T11:00:00Z",
-  "price_max_utc": "2026-10-11T21:00:00Z",
-  "weather_run_utc": "2026-10-10T00:00:00Z",
-  "training_rows": 95228,
+  "generated_at": "2026-10-11T17:48:28Z",
+  "origin_utc": "2026-10-11T11:00:00Z",
+  "price_max_utc": "2026-10-12T21:00:00Z",
+  "weather_run_utc": "2026-10-11T00:00:00Z",
+  "training_rows": 94962,
   "published": true,
   "coverage_note": "Backtestens P10–P90 dækker 70–74 procent af timerne. Intervallet er ikke et 80-procents-bånd."
 }
