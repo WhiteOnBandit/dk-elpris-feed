@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DK elpris-forecast</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="kicker">DK1 og DK2 · rå spotpris · 7 dage</p>
+        <h1>Elpris-forecast</h1>
+      </div>
+      <p id="generated" class="muted">Henter feedet…</p>
+    </header>
+    <p id="banner" class="banner" hidden></p>
+    <section class="stats" id="stats"></section>
+    <section>
+      <div class="section-head">
+        <h2>Forecast</h2>
+        <div class="zones" id="zones">
+          <button type="button" data-zone="DK1" class="is-on">DK1</button>
+          <button type="button" data-zone="DK2">DK2</button>
+        </div>
+      </div>
+      <p class="muted">EUR/MWh. Den fyldte flade er P10–P90. Kendte day-ahead-timer er streger uden bånd.</p>
+      <div id="chart"></div>
+    </section>
+    <section>
+      <h2>Drift</h2>
+      <div id="jobs"></div>
+      <ul id="warnings"></ul>
+    </section>
+    <section>
+      <h2>Datadækning</h2>
+      <div id="coverage"></div>
+    </section>
+    <section>
+      <h2>Træfsikkerhed</h2>
+      <p id="accuracy-note" class="muted"></p>
+      <div id="accuracy"></div>
+    </section>
+    <section>
+      <h2>Model</h2>
+      <p id="model"></p>
+    </section>
+    <footer>
+      <p>ECMWF IFS open data, CC BY 4.0. Tallene kommer fra dette repo, hver gang siden åbnes.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
