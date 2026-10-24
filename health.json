@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-24T11:05:35Z",
+  "generated_at": "2026-10-24T11:35:33Z",
   "last_success_at": "2026-10-23T11:05:41Z",
   "origin_utc": "2026-10-24T11:00:00Z",
   "published": false,
   "detail": "Kendt day-ahead er ikke komplet.",
   "coverage_note": "De udgivne P10–P90 er de rå kvantiler. I backtesten dækker de omkring 60 procent af timerne. En kalibrering, der ikke er taget i brug, når 70–74 procent. Intervallet er ikke et 80-procents-bånd.",
   "issued_run_count": 337,
-  "dmi_days": 6,
+  "dmi_days": 7,
   "energinet_days": 12,
   "archive_missing_dates": {
     "ecmwf": [
@@ -17,7 +17,6 @@
       "2026-10-18",
       "2026-10-19",
       "2026-10-20",
-      "2026-10-22",
       "2026-10-23",
       "2026-10-24"
     ],
@@ -28,7 +27,7 @@
     ]
   },
   "archive_complete": false,
-  "started_local": "2026-10-24T13:05",
+  "started_local": "2026-10-24T13:35",
   "schedule_late": false,
   "snapshot_warning": null
 }
