@@ -1,339 +1,339 @@
 {
-  "generated_at": "2026-10-30T12:05:44Z",
+  "generated_at": "2026-10-30T12:42:07Z",
   "unit": "EUR/MWh",
-  "scored_publications": 17,
+  "scored_publications": 18,
   "model_beats_baselines_30d": true,
-  "note": "Over de seneste 17 udgivelser med realiserede timer er modellens MAE lavere end begge naive regler.",
+  "note": "Over de seneste 18 udgivelser med realiserede timer er modellens MAE lavere end begge naive regler.",
   "rolling": {
     "7": {
       "days": 7,
       "methods": {
         "lightgbm": {
           "days": 7,
-          "n": 1252,
-          "mae": 86.868,
+          "n": 1250,
+          "mae": 101.493,
           "mae_by_horizon_day": [
             null,
-            46.726,
-            65.644,
-            81.927,
-            100.883,
-            121.632,
-            138.361
+            58.203,
+            80.043,
+            100.7,
+            113.764,
+            139.649,
+            148.183
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.357,
-            0.357,
+            0.429,
+            0.5,
             0.333,
-            0.4,
-            0.375,
+            0.5,
+            0.625,
             0.5
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.357,
-            0.429,
+            0.286,
             0.5,
-            0.2,
-            0.25,
+            0.333,
+            0.4,
+            0.5,
             0.333
           ],
-          "coverage": 0.266,
+          "coverage": 0.184,
           "coverage_by_horizon_day": [
             null,
             0.326,
-            0.365,
-            0.37,
-            0.206,
-            0.125,
+            0.306,
+            0.221,
+            0.089,
+            0.0,
             0.0
           ]
         },
         "same_hour_yesterday": {
           "days": 7,
-          "n": 1252,
-          "mae": 128.69,
+          "n": 1250,
+          "mae": 130.625,
           "mae_by_horizon_day": [
             null,
-            65.198,
-            91.179,
-            126.25,
-            159.911,
-            176.565,
-            202.392
+            48.808,
+            77.092,
+            119.903,
+            168.061,
+            212.721,
+            233.358
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
             0.143,
-            0.143,
+            0.071,
             0.083,
+            0.3,
+            0.25,
+            0.167
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            0.143,
+            0.0,
+            0.0,
             0.2,
+            0.25,
+            0.667
+          ]
+        },
+        "same_hour_last_week": {
+          "days": 7,
+          "n": 1250,
+          "mae": 133.052,
+          "mae_by_horizon_day": [
+            null,
+            125.983,
+            127.261,
+            120.8,
+            126.583,
+            150.3,
+            172.92
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            0.143,
+            0.214,
+            0.167,
+            0.3,
             0.125,
             0.167
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.143,
-            0.143,
-            0.0,
-            0.0,
-            0.25,
-            0.5
-          ]
-        },
-        "same_hour_last_week": {
-          "days": 7,
-          "n": 1252,
-          "mae": 109.653,
-          "mae_by_horizon_day": [
-            null,
-            114.513,
-            113.446,
-            109.521,
-            99.555,
-            100.311,
-            124.025
-          ],
-          "hit_rate_3h_by_horizon_day": [
-            null,
-            0.143,
-            0.286,
-            0.333,
-            0.4,
-            0.375,
-            0.167
-          ],
-          "hit_rate_4h_by_horizon_day": [
-            null,
             0.357,
-            0.286,
-            0.333,
-            0.2,
-            0.0,
-            0.0
+            0.214,
+            0.083,
+            0.1,
+            0.125,
+            0.167
           ]
         }
       }
     },
     "30": {
-      "days": 17,
+      "days": 18,
       "methods": {
         "lightgbm": {
-          "days": 17,
-          "n": 3912,
-          "mae": 64.446,
+          "days": 18,
+          "n": 4176,
+          "mae": 68.253,
           "mae_by_horizon_day": [
             null,
-            47.392,
-            58.488,
-            62.362,
-            66.074,
-            71.354,
-            77.976
+            49.704,
+            61.547,
+            65.888,
+            69.689,
+            75.35,
+            83.845
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.412,
-            0.529,
+            0.444,
+            0.556,
             0.5,
             0.5,
-            0.5,
-            0.462
+            0.533,
+            0.429
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.235,
-            0.382,
-            0.594,
-            0.367,
-            0.286,
-            0.538
+            0.222,
+            0.389,
+            0.559,
+            0.406,
+            0.333,
+            0.5
           ],
-          "coverage": 0.327,
+          "coverage": 0.306,
           "coverage_by_horizon_day": [
             null,
-            0.372,
-            0.363,
-            0.353,
-            0.28,
-            0.312,
-            0.285
+            0.351,
+            0.342,
+            0.332,
+            0.261,
+            0.291,
+            0.264
           ]
         },
         "same_hour_yesterday": {
-          "days": 17,
-          "n": 3912,
-          "mae": 81.366,
+          "days": 18,
+          "n": 4176,
+          "mae": 82.57,
           "mae_by_horizon_day": [
             null,
-            53.232,
-            67.383,
-            78.699,
-            95.964,
-            94.73,
-            92.294
+            51.554,
+            65.026,
+            77.793,
+            96.655,
+            99.164,
+            99.39
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.118,
-            0.235,
-            0.312,
-            0.4,
-            0.25,
-            0.308
+            0.111,
+            0.194,
+            0.294,
+            0.406,
+            0.267,
+            0.286
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.088,
+            0.083,
+            0.167,
             0.235,
             0.25,
-            0.2,
-            0.179,
-            0.346
+            0.167,
+            0.357
           ]
         },
         "same_hour_last_week": {
-          "days": 17,
-          "n": 3912,
-          "mae": 85.741,
+          "days": 18,
+          "n": 4176,
+          "mae": 94.044,
           "mae_by_horizon_day": [
             null,
-            83.706,
-            86.161,
-            86.062,
-            88.448,
-            88.113,
-            80.585
+            90.725,
+            93.698,
+            94.063,
+            96.812,
+            96.778,
+            90.745
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.206,
+            0.194,
+            0.306,
             0.353,
-            0.406,
-            0.4,
-            0.393,
-            0.5
+            0.344,
+            0.367,
+            0.464
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.324,
-            0.324,
-            0.344,
-            0.3,
-            0.214,
-            0.308
+            0.333,
+            0.278,
+            0.294,
+            0.25,
+            0.233,
+            0.321
           ]
         }
       }
     },
     "90": {
-      "days": 17,
+      "days": 18,
       "methods": {
         "lightgbm": {
-          "days": 17,
-          "n": 3912,
-          "mae": 64.446,
+          "days": 18,
+          "n": 4176,
+          "mae": 68.253,
           "mae_by_horizon_day": [
             null,
-            47.392,
-            58.488,
-            62.362,
-            66.074,
-            71.354,
-            77.976
+            49.704,
+            61.547,
+            65.888,
+            69.689,
+            75.35,
+            83.845
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.412,
-            0.529,
+            0.444,
+            0.556,
             0.5,
             0.5,
-            0.5,
-            0.462
+            0.533,
+            0.429
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.235,
-            0.382,
-            0.594,
-            0.367,
-            0.286,
-            0.538
+            0.222,
+            0.389,
+            0.559,
+            0.406,
+            0.333,
+            0.5
           ],
-          "coverage": 0.327,
+          "coverage": 0.306,
           "coverage_by_horizon_day": [
             null,
-            0.372,
-            0.363,
-            0.353,
-            0.28,
-            0.312,
-            0.285
+            0.351,
+            0.342,
+            0.332,
+            0.261,
+            0.291,
+            0.264
           ]
         },
         "same_hour_yesterday": {
-          "days": 17,
-          "n": 3912,
-          "mae": 81.366,
+          "days": 18,
+          "n": 4176,
+          "mae": 82.57,
           "mae_by_horizon_day": [
             null,
-            53.232,
-            67.383,
-            78.699,
-            95.964,
-            94.73,
-            92.294
+            51.554,
+            65.026,
+            77.793,
+            96.655,
+            99.164,
+            99.39
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.118,
-            0.235,
-            0.312,
-            0.4,
-            0.25,
-            0.308
+            0.111,
+            0.194,
+            0.294,
+            0.406,
+            0.267,
+            0.286
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.088,
+            0.083,
+            0.167,
             0.235,
             0.25,
-            0.2,
-            0.179,
-            0.346
+            0.167,
+            0.357
           ]
         },
         "same_hour_last_week": {
-          "days": 17,
-          "n": 3912,
-          "mae": 85.741,
+          "days": 18,
+          "n": 4176,
+          "mae": 94.044,
           "mae_by_horizon_day": [
             null,
-            83.706,
-            86.161,
-            86.062,
-            88.448,
-            88.113,
-            80.585
+            90.725,
+            93.698,
+            94.063,
+            96.812,
+            96.778,
+            90.745
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
-            0.206,
+            0.194,
+            0.306,
             0.353,
-            0.406,
-            0.4,
-            0.393,
-            0.5
+            0.344,
+            0.367,
+            0.464
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.324,
-            0.324,
-            0.344,
-            0.3,
-            0.214,
-            0.308
+            0.333,
+            0.278,
+            0.294,
+            0.25,
+            0.233,
+            0.321
           ]
         }
       }
@@ -1677,8 +1677,8 @@
       "methods": {
         "lightgbm": {
           "days": 1,
-          "n": 240,
-          "mae": 83.585,
+          "n": 264,
+          "mae": 89.237,
           "mae_by_horizon_day": [
             null,
             25.37,
@@ -1686,7 +1686,7 @@
             65.734,
             110.739,
             141.19,
-            105.797
+            125.775
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
@@ -1695,7 +1695,7 @@
             1.0,
             1.0,
             0.5,
-            1.0
+            0.0
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
@@ -1704,9 +1704,9 @@
             1.0,
             1.0,
             0.0,
-            1.0
+            0.0
           ],
-          "coverage": 0.312,
+          "coverage": 0.284,
           "coverage_by_horizon_day": [
             null,
             0.958,
@@ -1719,8 +1719,8 @@
         },
         "same_hour_yesterday": {
           "days": 1,
-          "n": 240,
-          "mae": 181.854,
+          "n": 264,
+          "mae": 186.768,
           "mae_by_horizon_day": [
             null,
             54.882,
@@ -1728,7 +1728,7 @@
             145.98,
             236.55,
             291.48,
-            252.39
+            244.149
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
@@ -1736,6 +1736,117 @@
             0.0,
             0.0,
             0.0,
+            0.0,
+            0.0
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ]
+        },
+        "same_hour_last_week": {
+          "days": 1,
+          "n": 264,
+          "mae": 114.714,
+          "mae_by_horizon_day": [
+            null,
+            154.842,
+            97.24,
+            41.027,
+            95.504,
+            128.071,
+            191.663
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.5,
+            0.0
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "day": "2026-10-25",
+      "methods": {
+        "lightgbm": {
+          "days": 1,
+          "n": 240,
+          "mae": 106.443,
+          "mae_by_horizon_day": [
+            null,
+            18.029,
+            44.203,
+            127.439,
+            141.968,
+            125.263,
+            168.651
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            0.0,
+            1.0,
+            0.0,
+            0.5,
+            0.0,
+            1.0
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "coverage": 0.175,
+          "coverage_by_horizon_day": [
+            null,
+            0.958,
+            0.396,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "same_hour_yesterday": {
+          "days": 1,
+          "n": 240,
+          "mae": 140.649,
+          "mae_by_horizon_day": [
+            null,
+            24.95,
+            84.064,
+            158.014,
+            212.944,
+            165.613,
+            140.267
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            0.0,
+            0.5,
             0.0,
             0.5
           ],
@@ -1752,126 +1863,15 @@
         "same_hour_last_week": {
           "days": 1,
           "n": 240,
-          "mae": 105.15,
-          "mae_by_horizon_day": [
-            null,
-            154.842,
-            97.24,
-            41.027,
-            95.504,
-            128.071,
-            172.973
-          ],
-          "hit_rate_3h_by_horizon_day": [
-            null,
-            0.0,
-            0.0,
-            1.0,
-            0.0,
-            0.5,
-            0.0
-          ],
-          "hit_rate_4h_by_horizon_day": [
-            null,
-            1.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "day": "2026-10-25",
-      "methods": {
-        "lightgbm": {
-          "days": 1,
-          "n": 192,
-          "mae": 96.358,
-          "mae_by_horizon_day": [
-            null,
-            18.029,
-            44.203,
-            127.439,
-            141.968,
-            125.618,
-            null
-          ],
-          "hit_rate_3h_by_horizon_day": [
-            null,
-            0.0,
-            1.0,
-            0.0,
-            0.5,
-            0.0,
-            null
-          ],
-          "hit_rate_4h_by_horizon_day": [
-            null,
-            0.0,
-            1.0,
-            0.0,
-            0.0,
-            0.0,
-            null
-          ],
-          "coverage": 0.219,
-          "coverage_by_horizon_day": [
-            null,
-            0.958,
-            0.396,
-            0.0,
-            0.0,
-            0.0,
-            null
-          ]
-        },
-        "same_hour_yesterday": {
-          "days": 1,
-          "n": 192,
-          "mae": 135.649,
-          "mae_by_horizon_day": [
-            null,
-            24.95,
-            84.064,
-            158.014,
-            212.944,
-            150.2,
-            null
-          ],
-          "hit_rate_3h_by_horizon_day": [
-            null,
-            0.0,
-            0.0,
-            0.0,
-            0.5,
-            0.5,
-            null
-          ],
-          "hit_rate_4h_by_horizon_day": [
-            null,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            1.0,
-            null
-          ]
-        },
-        "same_hour_last_week": {
-          "days": 1,
-          "n": 192,
-          "mae": 102.26,
+          "mae": 125.357,
           "mae_by_horizon_day": [
             null,
             115.904,
             41.027,
             95.504,
             128.071,
-            172.973,
-            null
+            191.663,
+            225.13
           ],
           "hit_rate_3h_by_horizon_day": [
             null,
@@ -1880,7 +1880,7 @@
             0.0,
             0.5,
             0.0,
-            null
+            0.0
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
@@ -1888,8 +1888,8 @@
             0.0,
             0.0,
             0.0,
-            0.0,
-            null
+            0.5,
+            0.0
           ]
         }
       }
@@ -1899,15 +1899,15 @@
       "methods": {
         "lightgbm": {
           "days": 1,
-          "n": 144,
-          "mae": 122.708,
+          "n": 192,
+          "mae": 123.66,
           "mae_by_horizon_day": [
             null,
             45.721,
             127.112,
             155.243,
-            133.101,
-            null,
+            123.808,
+            139.01,
             null
           ],
           "hit_rate_3h_by_horizon_day": [
@@ -1915,8 +1915,8 @@
             0.0,
             0.0,
             0.0,
-            0.5,
-            null,
+            0.0,
+            1.0,
             null
           ],
           "hit_rate_4h_by_horizon_day": [
@@ -1925,31 +1925,31 @@
             0.5,
             0.0,
             0.0,
-            null,
+            1.0,
             null
           ],
-          "coverage": 0.042,
+          "coverage": 0.031,
           "coverage_by_horizon_day": [
             null,
             0.231,
             0.0,
             0.0,
             0.0,
-            null,
+            0.0,
             null
           ]
         },
         "same_hour_yesterday": {
           "days": 1,
-          "n": 144,
-          "mae": 169.656,
+          "n": 192,
+          "mae": 166.927,
           "mae_by_horizon_day": [
             null,
             131.222,
             158.059,
             210.309,
-            151.681,
-            null,
+            163.876,
+            140.478,
             null
           ],
           "hit_rate_3h_by_horizon_day": [
@@ -1957,8 +1957,8 @@
             0.0,
             0.0,
             0.0,
-            0.5,
-            null,
+            0.0,
+            1.0,
             null
           ],
           "hit_rate_4h_by_horizon_day": [
@@ -1967,21 +1967,21 @@
             0.0,
             0.0,
             0.0,
-            null,
+            1.0,
             null
           ]
         },
         "same_hour_last_week": {
           "days": 1,
-          "n": 144,
-          "mae": 105.223,
+          "n": 192,
+          "mae": 133.353,
           "mae_by_horizon_day": [
             null,
             11.005,
             101.855,
             125.846,
-            178.925,
-            null,
+            195.201,
+            228.105,
             null
           ],
           "hit_rate_3h_by_horizon_day": [
@@ -1989,8 +1989,8 @@
             0.5,
             0.0,
             0.0,
-            0.5,
-            null,
+            0.0,
+            0.0,
             null
           ],
           "hit_rate_4h_by_horizon_day": [
@@ -1998,8 +1998,8 @@
             1.0,
             0.0,
             0.0,
-            1.0,
-            null,
+            0.5,
+            0.0,
             null
           ]
         }
@@ -2010,14 +2010,14 @@
       "methods": {
         "lightgbm": {
           "days": 1,
-          "n": 96,
-          "mae": 127.916,
+          "n": 144,
+          "mae": 127.188,
           "mae_by_horizon_day": [
             null,
             131.957,
             133.309,
-            111.372,
-            null,
+            117.617,
+            129.082,
             null,
             null
           ],
@@ -2025,8 +2025,8 @@
             null,
             0.5,
             0.0,
-            0.5,
-            null,
+            0.0,
+            1.0,
             null,
             null
           ],
@@ -2034,8 +2034,8 @@
             null,
             0.5,
             0.0,
+            0.0,
             1.0,
-            null,
             null,
             null
           ],
@@ -2045,21 +2045,21 @@
             0.0,
             0.0,
             0.0,
-            null,
+            0.0,
             null,
             null
           ]
         },
         "same_hour_yesterday": {
           "days": 1,
-          "n": 96,
-          "mae": 69.242,
+          "n": 144,
+          "mae": 58.391,
           "mae_by_horizon_day": [
             null,
             63.811,
             86.815,
-            37.32,
-            null,
+            41.506,
+            26.811,
             null,
             null
           ],
@@ -2067,8 +2067,8 @@
             null,
             0.5,
             0.0,
-            0.5,
-            null,
+            0.0,
+            1.0,
             null,
             null
           ],
@@ -2077,21 +2077,21 @@
             0.5,
             0.0,
             0.0,
-            null,
+            1.0,
             null,
             null
           ]
         },
         "same_hour_last_week": {
           "days": 1,
-          "n": 96,
-          "mae": 143.745,
+          "n": 144,
+          "mae": 168.41,
           "mae_by_horizon_day": [
             null,
             147.02,
             125.846,
-            178.925,
-            null,
+            195.201,
+            228.105,
             null,
             null
           ],
@@ -2099,8 +2099,8 @@
             null,
             0.0,
             0.0,
-            0.5,
-            null,
+            0.0,
+            0.0,
             null,
             null
           ],
@@ -2108,8 +2108,8 @@
             null,
             0.0,
             0.0,
-            1.0,
-            null,
+            0.5,
+            0.0,
             null,
             null
           ]
@@ -2121,13 +2121,13 @@
       "methods": {
         "lightgbm": {
           "days": 1,
-          "n": 48,
-          "mae": 88.688,
+          "n": 96,
+          "mae": 99.623,
           "mae_by_horizon_day": [
             null,
             74.191,
-            105.822,
-            null,
+            105.238,
+            117.426,
             null,
             null,
             null
@@ -2135,6 +2135,117 @@
           "hit_rate_3h_by_horizon_day": [
             null,
             0.5,
+            1.0,
+            1.0,
+            null,
+            null,
+            null
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            1.0,
+            null,
+            null,
+            null
+          ],
+          "coverage": 0.0,
+          "coverage_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null,
+            null,
+            null
+          ]
+        },
+        "same_hour_yesterday": {
+          "days": 1,
+          "n": 96,
+          "mae": 50.276,
+          "mae_by_horizon_day": [
+            null,
+            16.84,
+            52.04,
+            85.942,
+            null,
+            null,
+            null
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            0.5,
+            null,
+            null,
+            null
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            0.5,
+            0.0,
+            0.0,
+            null,
+            null,
+            null
+          ]
+        },
+        "same_hour_last_week": {
+          "days": 1,
+          "n": 96,
+          "mae": 177.131,
+          "mae_by_horizon_day": [
+            null,
+            100.64,
+            195.201,
+            228.105,
+            null,
+            null,
+            null
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            0.0,
+            0.0,
+            0.0,
+            null,
+            null,
+            null
+          ],
+          "hit_rate_4h_by_horizon_day": [
+            null,
+            0.0,
+            0.5,
+            0.0,
+            null,
+            null,
+            null
+          ]
+        }
+      }
+    },
+    {
+      "day": "2026-10-29",
+      "methods": {
+        "lightgbm": {
+          "days": 1,
+          "n": 48,
+          "mae": 103.172,
+          "mae_by_horizon_day": [
+            null,
+            88.661,
+            120.322,
+            null,
+            null,
+            null,
+            null
+          ],
+          "hit_rate_3h_by_horizon_day": [
+            null,
+            1.0,
             1.0,
             null,
             null,
@@ -2144,7 +2255,7 @@
           "hit_rate_4h_by_horizon_day": [
             null,
             0.0,
-            0.5,
+            1.0,
             null,
             null,
             null,
@@ -2164,11 +2275,11 @@
         "same_hour_yesterday": {
           "days": 1,
           "n": 48,
-          "mae": 43.377,
+          "mae": 21.06,
           "mae_by_horizon_day": [
             null,
-            16.84,
-            74.739,
+            23.281,
+            18.436,
             null,
             null,
             null,
@@ -2177,7 +2288,7 @@
           "hit_rate_3h_by_horizon_day": [
             null,
             0.0,
-            1.0,
+            0.5,
             null,
             null,
             null,
@@ -2185,8 +2296,8 @@
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
-            0.5,
-            1.0,
+            0.0,
+            0.0,
             null,
             null,
             null,
@@ -2196,11 +2307,11 @@
         "same_hour_last_week": {
           "days": 1,
           "n": 48,
-          "mae": 136.521,
+          "mae": 217.742,
           "mae_by_horizon_day": [
             null,
-            100.64,
-            178.925,
+            208.973,
+            228.105,
             null,
             null,
             null,
@@ -2209,7 +2320,7 @@
           "hit_rate_3h_by_horizon_day": [
             null,
             0.0,
-            0.5,
+            0.0,
             null,
             null,
             null,
@@ -2217,8 +2328,8 @@
           ],
           "hit_rate_4h_by_horizon_day": [
             null,
+            0.5,
             0.0,
-            1.0,
             null,
             null,
             null,
