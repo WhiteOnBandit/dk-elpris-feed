@@ -145,9 +145,19 @@ function series(zone) {
   return payload ? payload.forecast || [] : [];
 }
 
+function chartNote(points) {
+  const note = document.getElementById("chart-note");
+  if (!note) return;
+  const hasKnown = points.some((point) => point.is_known);
+  note.textContent = hasKnown
+    ? "EUR/MWh. Den fyldte flade er P10–P90. Kendte day-ahead-timer er streger uden bånd."
+    : "EUR/MWh. Den fyldte flade er P10–P90. Kendte day-ahead-timer er ikke med.";
+}
+
 function renderChart() {
   const points = series(state.zone);
   const root = document.getElementById("chart");
+  chartNote(points);
   if (!points.length) {
     root.innerHTML = "<p class='muted'>Intet forecast at tegne.</p>";
     return;
