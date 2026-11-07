@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-06T12:41:03Z",
+  "generated_at": "2026-11-07T12:11:58Z",
   "jobs": {
     "forecast": {
       "conclusion": null,
       "status": "in_progress",
       "event": "workflow_dispatch",
-      "started_at": "2026-11-06T12:35:10Z",
+      "started_at": "2026-11-07T12:05:09Z",
       "late": false
     },
     "dmi-snapshot": {
       "conclusion": "success",
       "status": "completed",
       "event": "schedule",
-      "started_at": "2026-11-05T21:05:28Z",
+      "started_at": "2026-11-06T20:26:50Z",
       "late": false
     },
     "ecmwf-backfill": {
