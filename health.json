@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-11-09T12:05:42Z",
-  "last_success_at": "2026-11-08T12:05:39Z",
+  "generated_at": "2026-11-09T12:35:34Z",
+  "last_success_at": "2026-11-09T12:35:34Z",
   "origin_utc": "2026-11-09T12:00:00Z",
-  "published": false,
-  "detail": "Kendt day-ahead er ikke komplet.",
+  "price_max_utc": "2026-11-10T22:00:00Z",
+  "weather_run_utc": "2026-11-09T00:00:00Z",
+  "training_rows": 0,
+  "model_version": "model-v1",
+  "model_source": "release",
+  "published": true,
   "coverage_note": "De udgivne P10–P90 er de rå kvantiler. I backtesten dækker de omkring 60 procent af timerne. En kalibrering, der ikke er taget i brug, når 70–74 procent. Intervallet er ikke et 80-procents-bånd.",
   "published_forecast_note": "Published forecast excludes known day-ahead hours; actuals used for training only.",
-  "issued_run_count": 353,
+  "issued_run_count": 354,
   "dmi_days": 24,
   "energinet_days": 28,
   "archive_missing_dates": {
-    "ecmwf": [
-      "2026-11-09"
-    ],
+    "ecmwf": [],
     "dmi": [
       "2026-10-17",
       "2026-10-18",
@@ -27,7 +29,7 @@
     ]
   },
   "archive_complete": false,
-  "started_local": "2026-11-09T13:05",
+  "started_local": "2026-11-09T13:35",
   "schedule_late": false,
   "snapshot_warning": null
 }
