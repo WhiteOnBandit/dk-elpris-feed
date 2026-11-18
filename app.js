@@ -103,6 +103,11 @@ function renderCoverage(backfill, health) {
 }
 
 function renderAccuracy(accuracy) {
+  if (accuracy && accuracy.model_beats_baselines_30d === false) {
+    const item = document.createElement("li");
+    item.textContent = "Modellen slår ikke de naive regler over de seneste 30 udgivelser. Se Træfsikkerhed.";
+    document.getElementById("warnings").prepend(item);
+  }
   text("accuracy-note", accuracy && accuracy.note ? accuracy.note : "accuracy.json er der ikke endnu. Den skrives, næste gang forecasten kører.");
   const root = document.getElementById("accuracy");
   const rolling = accuracy && accuracy.rolling && accuracy.rolling["30"];
