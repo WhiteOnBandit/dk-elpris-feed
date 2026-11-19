@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T12:06:42Z",
+  "generated_at": "2026-11-19T12:48:17Z",
   "jobs": {
     "forecast": {
       "conclusion": null,
       "status": "in_progress",
       "event": "workflow_dispatch",
-      "started_at": "2026-11-19T12:05:10Z",
+      "started_at": "2026-11-19T12:35:09Z",
       "late": false
     },
     "dmi-snapshot": {
