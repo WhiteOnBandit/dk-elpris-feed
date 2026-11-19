@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-18T12:56:25Z",
+  "generated_at": "2026-11-19T12:05:51Z",
   "unit": "EUR/MWh",
   "scored_publications": 37,
   "model_beats_baselines_30d": false,
-  "note": "Over de seneste 30 udgivelser med realiserede timer er modellens MAE ikke lavere end den bedste naive regel.",
+  "note": "Over de seneste 30 udgivelser med realiserede timer er modellens MAE ikke lavere end den bedste naive regel (MAE 82.7 mod 81.1 for same_hour_yesterday). P10–P90 dækkede 26 procent af timerne.",
   "rolling": {
     "7": {
       "days": 7,
