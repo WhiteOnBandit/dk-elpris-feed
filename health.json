@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-11-21T12:05:55Z",
-  "last_success_at": "2026-11-20T12:35:42Z",
+  "generated_at": "2026-11-21T12:35:52Z",
+  "last_success_at": "2026-11-21T12:35:52Z",
   "origin_utc": "2026-11-21T12:00:00Z",
-  "published": false,
-  "detail": "Kendt day-ahead er ikke komplet.",
+  "price_max_utc": "2026-11-22T22:00:00Z",
+  "weather_run_utc": "2026-11-21T00:00:00Z",
+  "model_version": "model-v1",
+  "model_source": "release",
+  "training_rows": 0,
+  "published": true,
   "coverage_note": "De udgivne P10–P90 er de rå kvantiler og ikke et 80-procents-bånd. Den målte dækning på udgivne forecasts står i accuracy.json.",
   "published_forecast_note": "Published forecast excludes known day-ahead hours; those prices are published separately in actuals.json.",
-  "issued_run_count": 365,
+  "issued_run_count": 366,
   "dmi_days": 36,
   "energinet_days": 43,
   "archive_missing_dates": {
-    "ecmwf": [
-      "2026-11-21"
-    ],
+    "ecmwf": [],
     "dmi": [
       "2026-10-17",
       "2026-10-18",
@@ -23,7 +25,7 @@
     "energinet": []
   },
   "archive_complete": false,
-  "started_local": "2026-11-21T13:05",
+  "started_local": "2026-11-21T13:35",
   "schedule_late": false,
   "snapshot_warning": null
 }
