@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T22:40:27Z",
+  "generated_at": "2026-11-22T21:09:45Z",
   "window_start": "2025-11-21",
-  "window_end": "2026-11-17",
+  "window_end": "2026-11-21",
   "goal_days": 365,
-  "complete_days": 362,
+  "complete_days": 366,
   "first_day": "2025-11-21",
-  "last_day": "2026-11-17",
+  "last_day": "2026-11-21",
   "missing_count": 0,
   "missing_dates": [],
   "stored_this_run": 0,
-  "eta_date": "2026-11-20"
+  "eta_date": null
 }
