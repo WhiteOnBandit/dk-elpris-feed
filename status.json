@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-22T12:44:32Z",
+  "generated_at": "2026-11-23T12:16:01Z",
   "jobs": {
     "forecast": {
       "conclusion": null,
       "status": "in_progress",
       "event": "workflow_dispatch",
-      "started_at": "2026-11-22T12:35:12Z",
+      "started_at": "2026-11-23T12:05:15Z",
       "late": false
     },
     "dmi-snapshot": {
       "conclusion": "success",
       "status": "completed",
       "event": "schedule",
-      "started_at": "2026-11-21T20:31:33Z",
+      "started_at": "2026-11-22T20:43:36Z",
       "late": false
     },
     "ecmwf-backfill": {
       "conclusion": "success",
       "status": "completed",
       "event": "schedule",
-      "started_at": "2026-11-18T22:40:01Z",
+      "started_at": "2026-11-22T21:09:18Z",
       "late": false
     },
     "train": {
