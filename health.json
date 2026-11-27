@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-26T12:35:48Z",
-  "last_success_at": "2026-11-26T12:35:48Z",
-  "origin_utc": "2026-11-26T12:00:00Z",
-  "price_max_utc": "2026-11-27T22:00:00Z",
-  "weather_run_utc": "2026-11-26T00:00:00Z",
+  "generated_at": "2026-11-27T12:05:49Z",
+  "last_success_at": "2026-11-27T12:05:49Z",
+  "origin_utc": "2026-11-27T12:00:00Z",
+  "price_max_utc": "2026-11-28T22:00:00Z",
+  "weather_run_utc": "2026-11-27T00:00:00Z",
   "model_version": "model-v2",
   "model_source": "retrained",
   "interval_calibration": {
-    "2": 0.0264,
-    "3": 0.0445,
-    "4": 0.0798,
-    "5": 0.0605,
-    "6": 0.0413,
-    "7": 0.0232
+    "2": 0.056,
+    "3": 0.069,
+    "4": 0.0973,
+    "5": 0.0903,
+    "6": 0.095,
+    "7": 0.0897
   },
   "training_rows": 95838,
   "training_origins": 363,
-  "training_window_start_utc": "2025-11-27T12:00:00Z",
-  "training_window_end_utc": "2026-11-24T12:00:00Z",
+  "training_window_start_utc": "2025-11-28T12:00:00Z",
+  "training_window_end_utc": "2026-11-25T12:00:00Z",
   "training_skipped_days": 0,
   "training_warning": null,
   "published": true,
   "coverage_note": "P10–P90 justeres hver dag ud fra modellens fejl de seneste 28 dage og sigter mod, at 80 procent af timerne ligger inden for. Den målte dækning står i accuracy.json.",
   "published_forecast_note": "Published forecast excludes known day-ahead hours; those prices are published separately in actuals.json.",
-  "issued_run_count": 371,
-  "dmi_days": 41,
-  "energinet_days": 48,
+  "issued_run_count": 372,
+  "dmi_days": 42,
+  "energinet_days": 49,
   "archive_missing_dates": {
     "ecmwf": [],
     "dmi": [
@@ -33,12 +33,12 @@
       "2026-10-18",
       "2026-10-19",
       "2026-10-20",
-      "2026-11-26"
+      "2026-11-27"
     ],
     "energinet": []
   },
   "archive_complete": false,
-  "started_local": "2026-11-26T13:35",
+  "started_local": "2026-11-27T13:05",
   "schedule_late": false,
   "snapshot_warning": null
 }
